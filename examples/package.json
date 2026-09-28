@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "default_language": "en",
+  "fallback": {
+    "de": "en",
+    "de_AT": "de",
+    "en": "",
+    "en_GB": "en",
+    "fr": "en"
+  },
+  "templates": {
+    "login_sms": {
+      "en": {
+        "segments": [
+          {
+            "name": "service"
+          },
+          {
+            "text": " login code: "
+          },
+          {
+            "name": "code"
+          }
+        ]
+      },
+      "fr": {
+        "segments": [
+          {
+            "text": "Code de connexion "
+          },
+          {
+            "name": "service"
+          },
+          {
+            "text": " : "
+          },
+          {
+            "name": "code"
+          }
+        ]
+      }
+    },
+    "welcome_email": {
+      "de": {
+        "segments": [
+          {
+            "text": "Hallo "
+          },
+          {
+            "name": "name"
+          },
+          {
+            "text": ", willkommen bei "
+          },
+          {
+            "name": "service"
+          },
+          {
+            "text": "! Code {CUR} "
+          },
+          {
+            "name": "code"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      "en": {
+        "segments": [
+          {
+            "text": "Hi "
+          },
+          {
+            "name": "name"
+          },
+          {
+            "text": ", welcome to "
+          },
+          {
+            "name": "service"
+          },
+          {
+            "text": "! Use code {CUR} "
+          },
+          {
+            "name": "code"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      "en_GB": {
+        "segments": [
+          {
+            "text": "Hello "
+          },
+          {
+            "name": "name"
+          },
+          {
+            "text": ", welcome to "
+          },
+          {
+            "name": "service"
+          },
+          {
+            "text": "! Use code {CUR} "
+          },
+          {
+            "name": "code"
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    }
+  }
+}

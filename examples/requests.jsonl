@@ -1,0 +1,9 @@
+{"template":"welcome_email","language":"en","params":{"name":"Ada","service":"Cloud","code":"42"}}
+{"template":"welcome_email","language":"de_AT","params":{"name":"Birgit","service":"Cloud","code":"42"}}
+{"template":"welcome_email","language":"fr","params":{"name":"Camille","service":"Cloud","code":"42"}}
+{"template":"welcome_email","language":"en_GB","params":{"name":"Dora","service":"Cloud","code":"42"}}
+{"template":"login_sms","language":"fr","params":{"service":"Cloud","code":"007"}}
+{"template":"login_sms","language":"de","params":{"service":"Cloud"}}
+{"template":"login_sms","language":"zz","params":{"service":"Cloud","code":"1"}}
+{"template":"unknown_tpl","language":"en","params":{}}
+{"template":"login_sms","language":"en","params":{"service":"Cloud{code}","code":"{code}"}}

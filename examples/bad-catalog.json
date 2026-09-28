@@ -1,0 +1,11 @@
+{
+  "default_language": "en",
+  "languages": {
+    "en": {},
+    "de": { "fallback": "en" }
+  },
+  "entries": [
+    { "template": "welcome_email", "language": "en", "text": "Hi {who}" },
+    { "template": "welcome_email", "language": "de", "text": "Hallo {name}" }
+  ]
+}

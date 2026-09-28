@@ -1,0 +1,38 @@
+{
+  "default_language": "en",
+  "languages": {
+    "en": {},
+    "en_GB": { "fallback": "en" },
+    "de": { "fallback": "en" },
+    "de_AT": { "fallback": "de" },
+    "fr": {}
+  },
+  "entries": [
+    {
+      "template": "welcome_email",
+      "language": "en",
+      "text": "Hi {name}, welcome to {service}! Use code {{CUR}} {code}."
+    },
+    {
+      "template": "welcome_email",
+      "language": "en_GB",
+      "text": "Hello {name}, welcome to {service}! Use code {{CUR}} {code}."
+    },
+    {
+      "template": "welcome_email",
+      "language": "de",
+      "text": "Hallo {name}, willkommen bei {service}! Code {{CUR}} {code}."
+    },
+    {
+      "template": "login_sms",
+      "language": "en",
+      "text": "{service} login code: {code}"
+    },
+    {
+      "template": "login_sms",
+      "language": "fr",
+      "text": "Code de connexion {service} : {code}"
+    }
+  ]
+}
+ 

@@ -1,0 +1,9 @@
+{"line":1,"template":"welcome_email","language":"en","used_language":"en","path":["en"],"output":"Hi Ada, welcome to Cloud! Use code {CUR} 42."}
+{"line":2,"template":"welcome_email","language":"de_AT","used_language":"de","path":["de_AT","de"],"fallback":true,"output":"Hallo Birgit, willkommen bei Cloud! Code {CUR} 42."}
+{"line":3,"template":"welcome_email","language":"fr","used_language":"en","path":["fr","en"],"fallback":true,"output":"Hi Camille, welcome to Cloud! Use code {CUR} 42."}
+{"line":4,"template":"welcome_email","language":"en_GB","used_language":"en_GB","path":["en_GB"],"output":"Hello Dora, welcome to Cloud! Use code {CUR} 42."}
+{"line":5,"template":"login_sms","language":"fr","used_language":"fr","path":["fr"],"output":"Code de connexion Cloud : 007"}
+{"line":6,"template":"login_sms","language":"de","error":"missing params [code]"}
+{"line":7,"template":"login_sms","language":"zz","error":"unknown language \"zz\""}
+{"line":8,"template":"unknown_tpl","language":"en","error":"unknown template \"unknown_tpl\""}
+{"line":9,"template":"login_sms","language":"en","used_language":"en","path":["en"],"output":"Cloud{code} login code: {code}"}
