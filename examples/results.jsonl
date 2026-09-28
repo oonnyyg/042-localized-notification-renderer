@@ -1,0 +1,12 @@
+{"line":1,"template":"welcome_email","language":"zh-CN","output":"张三，欢迎使用云相册！","used_language":"zh-CN","path":["zh-CN","zh","en"]}
+{"line":2,"template":"welcome_email","language":"de","output":"Hallo Max, willkommen bei CloudAlbum!","used_language":"de","path":["de","en"]}
+{"line":3,"template":"login_sms","language":"zh-CN","output":"您的云相册验证码是427913，10分钟内有效。","used_language":"zh-CN","path":["zh-CN","zh","en"]}
+{"line":4,"template":"login_sms","language":"fr","output":"Votre code CloudAlbum est 427913. Il expire dans 10 minutes.","used_language":"fr","path":["fr","en"]}
+{"line":5,"template":"brace_help","language":"zh-CN","output":"占位符形如{name}；双写括号{和}按字面输出。","used_language":"zh-CN","path":["zh-CN","zh","en"]}
+{"line":6,"template":"brace_help","language":"zh-HK","output":"占位符形如{name}；双写括号{和}按字面输出。","used_language":"zh-CN","path":["zh-HK","zh-CN","zh","en"],"fallback":true}
+{"line":7,"template":"plain_notice","language":"zh-HK","output":"Scheduled maintenance tonight.","used_language":"en","path":["zh-HK","zh-CN","zh","en"],"fallback":true}
+{"line":8,"template":"login_sms","language":"zh-CN","used_language":"zh-CN","path":["zh-CN","zh","en"],"error":"missing required param \"minutes\""}
+{"line":9,"template":"welcome_email","language":"ko","error":"unknown target language \"ko\""}
+{"line":10,"template":"missing_tpl","language":"en","error":"unknown template \"missing_tpl\""}
+{"line":11,"template":"welcome_email","language":"en","used_language":"en","path":["en"],"error":"unexpected param \"extra\""}
+{"line":12,"template":"brace_help","language":"en","used_language":"en","path":["en"],"error":"unexpected param \"unused\""}

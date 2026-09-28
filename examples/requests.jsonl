@@ -1,0 +1,12 @@
+{"template":"welcome_email","language":"zh-CN","params":{"name":"张三","service":"云相册"}}
+{"template":"welcome_email","language":"de","params":{"name":"Max","service":"CloudAlbum"}}
+{"template":"login_sms","language":"zh-CN","params":{"service":"云相册","code":"427913","minutes":"10"}}
+{"template":"login_sms","language":"fr","params":{"service":"CloudAlbum","code":"427913","minutes":"10"}}
+{"template":"brace_help","language":"zh-CN","params":{}}
+{"template":"brace_help","language":"zh-HK","params":{}}
+{"template":"plain_notice","language":"zh-HK","params":{}}
+{"template":"login_sms","language":"zh-CN","params":{"service":"云相册","code":"427913"}}
+{"template":"welcome_email","language":"ko","params":{"name":"X","service":"Y"}}
+{"template":"missing_tpl","language":"en","params":{}}
+{"template":"welcome_email","language":"en","params":{"name":"Ada","service":"Mailer","extra":"nope"}}
+{"template":"brace_help","language":"en","params":{"unused":"{not_a_placeholder}"}}

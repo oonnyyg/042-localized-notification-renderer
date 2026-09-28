@@ -1,0 +1,31 @@
+{
+  "default_language": "en",
+  "languages": {
+    "zh-HK": "zh-CN",
+    "zh-CN": "zh",
+    "zh": "",
+    "fr": "en",
+    "de": "en"
+  },
+  "templates": {
+    "welcome_email": {
+      "en": "Hello {name}, welcome to {service}!",
+      "zh-CN": "{name}，欢迎使用{service}！",
+      "fr": "Bonjour {name}, bienvenue sur {service} !",
+      "de": "Hallo {name}, willkommen bei {service}!"
+    },
+    "login_sms": {
+      "en": "Your {service} code is {code}. It expires in {minutes} minutes.",
+      "zh-CN": "您的{service}验证码是{code}，{minutes}分钟内有效。",
+      "zh": "您的{service}验证码是{code}，{minutes}分钟内有效。",
+      "fr": "Votre code {service} est {code}. Il expire dans {minutes} minutes."
+    },
+    "brace_help": {
+      "en": "Placeholders look like {{name}}; doubled braces {{ and }} are literal.",
+      "zh-CN": "占位符形如{{name}}；双写括号{{和}}按字面输出。"
+    },
+    "plain_notice": {
+      "en": "Scheduled maintenance tonight."
+    }
+  }
+}

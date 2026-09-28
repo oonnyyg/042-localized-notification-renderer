@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "default_language": "en",
+  "fallbacks": {
+    "de": "en",
+    "fr": "en",
+    "zh": "en",
+    "zh-CN": "zh",
+    "zh-HK": "zh-CN"
+  },
+  "placeholders": {
+    "brace_help": [],
+    "login_sms": [
+      "code",
+      "minutes",
+      "service"
+    ],
+    "plain_notice": [],
+    "welcome_email": [
+      "name",
+      "service"
+    ]
+  },
+  "templates": {
+    "brace_help": {
+      "en": [
+        {
+          "literal": "Placeholders look like {name}; doubled braces { and } are literal."
+        }
+      ],
+      "zh-CN": [
+        {
+          "literal": "占位符形如{name}；双写括号{和}按字面输出。"
+        }
+      ]
+    },
+    "login_sms": {
+      "en": [
+        {
+          "literal": "Your "
+        },
+        {
+          "param": "service"
+        },
+        {
+          "literal": " code is "
+        },
+        {
+          "param": "code"
+        },
+        {
+          "literal": ". It expires in "
+        },
+        {
+          "param": "minutes"
+        },
+        {
+          "literal": " minutes."
+        }
+      ],
+      "fr": [
+        {
+          "literal": "Votre code "
+        },
+        {
+          "param": "service"
+        },
+        {
+          "literal": " est "
+        },
+        {
+          "param": "code"
+        },
+        {
+          "literal": ". Il expire dans "
+        },
+        {
+          "param": "minutes"
+        },
+        {
+          "literal": " minutes."
+        }
+      ],
+      "zh": [
+        {
+          "literal": "您的"
+        },
+        {
+          "param": "service"
+        },
+        {
+          "literal": "验证码是"
+        },
+        {
+          "param": "code"
+        },
+        {
+          "literal": "，"
+        },
+        {
+          "param": "minutes"
+        },
+        {
+          "literal": "分钟内有效。"
+        }
+      ],
+      "zh-CN": [
+        {
+          "literal": "您的"
+        },
+        {
+          "param": "service"
+        },
+        {
+          "literal": "验证码是"
+        },
+        {
+          "param": "code"
+        },
+        {
+          "literal": "，"
+        },
+        {
+          "param": "minutes"
+        },
+        {
+          "literal": "分钟内有效。"
+        }
+      ]
+    },
+    "plain_notice": {
+      "en": [
+        {
+          "literal": "Scheduled maintenance tonight."
+        }
+      ]
+    },
+    "welcome_email": {
+      "de": [
+        {
+          "literal": "Hallo "
+        },
+        {
+          "param": "name"
+        },
+        {
+          "literal": ", willkommen bei "
+        },
+        {
+          "param": "service"
+        },
+        {
+          "literal": "!"
+        }
+      ],
+      "en": [
+        {
+          "literal": "Hello "
+        },
+        {
+          "param": "name"
+        },
+        {
+          "literal": ", welcome to "
+        },
+        {
+          "param": "service"
+        },
+        {
+          "literal": "!"
+        }
+      ],
+      "fr": [
+        {
+          "literal": "Bonjour "
+        },
+        {
+          "param": "name"
+        },
+        {
+          "literal": ", bienvenue sur "
+        },
+        {
+          "param": "service"
+        },
+        {
+          "literal": " !"
+        }
+      ],
+      "zh-CN": [
+        {
+          "param": "name"
+        },
+        {
+          "literal": "，欢迎使用"
+        },
+        {
+          "param": "service"
+        },
+        {
+          "literal": "！"
+        }
+      ]
+    }
+  }
+}
